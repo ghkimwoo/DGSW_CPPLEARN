@@ -127,7 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ConsoleApplication2.cpp" />
+    <ClCompile Include="Example.cpp" />
+    <ClCompile Include="Saving_Calc.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DepositCalc.h" />
+    <ClInclude Include="Incometax.h" />
+    <ClInclude Include="SavingCalc.h" />
+    <ClInclude Include="TaxCalc.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
